@@ -1,0 +1,35 @@
+{
+  "root": true,
+  "extends": [
+    "@ninthsun91/eslint-config"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "tsconfig.json",
+    "tsconfigRootDir": "."
+  },
+  "env": {
+    "node": true
+  },
+  "ignorePatterns": [
+    "src/api/**",
+    "**/*.test.ts",
+    "**/*.spec.ts"
+  ],
+  "rules": {},
+  "overrides": [
+    {
+      "files": [
+        "**/*.test.ts",
+        "**/*.spec.ts",
+        "**/*.e2e-spec.ts"
+      ],
+      "env": {
+        "jest": true
+      },
+      "rules": {
+        "max-nested-callbacks": "off"
+      }
+    }
+  ]
+}
