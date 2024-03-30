@@ -1,8 +1,9 @@
 {
   "name": "country-code-enum",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Country and currency code in const Enum",
   "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "build": "tsc",
     "deploy": "npm run build && npm publish",
@@ -22,6 +23,10 @@
     "README.md"
   ],
   "author": "ninthsun91",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ninthsun91/country-code-enum"
+  },
   "license": "MIT",
   "devDependencies": {
     "typescript": "^5.3.3"
