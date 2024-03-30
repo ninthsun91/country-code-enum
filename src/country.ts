@@ -1,5 +1,8 @@
 /**
- * ISO 3166-1 alpha-2 country codes  
+ * @standard ISO 3166-1 alpha-2
+ * 
+ * @description 249 officially assigned country codes, 16 exceptional reservations, and 7 transitional reservations
+ * 
  * @link https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
  */
 export const Country = {
@@ -805,50 +808,50 @@ export const Country = {
   //
 
   /**
-   * Netherlands Antilles  
-   * Reserved from 2010-12 to 2060-12  
-   * Divided to BQ and SX
+   * Netherlands Antilles
+   * @Reserved from 2010-12 to 2060-12
+   * @To Divided to BQ and SX
    */
   AN: 'AN',
 
   /**
    * Burma  
-   * Reserved from 1989-12 to 2039-12  
-   * Name changed to MM
+   * @Reserved from 1989-12 to 2039-12  
+   * @To Name changed to MM
    */
   BU: 'BU',
 
   /**
    * Serbia and Montenegro  
-   * Reserved from 2006-09 to 2056-09  
-   * Divided to ME and RS
+   * @Reserved from 2006-09 to 2056-09  
+   * @To Divided to ME and RS
    */
   CS: 'CS',
 
   /**
    * Neutral Zone  
-   * Reserved from 1993-07 to 2043-07  
-   * Divided between IQ and SA
+   * @Reserved from 1993-07 to 2043-07  
+   * @To Divided between IQ and SA
    */
   NT: 'NT',
 
   /**
    * East Timor  
-   * Reserved from 2002-05 to 2052-05  
-   * Name changed to TL
+   * @Reserved from 2002-05 to 2052-05  
+   * @To Name changed to TL
    */
   TP: 'TP',
 
   /**
    * Yugoslavia  
-   * Reserved from 2003-07 to 2053-07  
+   * @Reserved from 2003-07 to 2053-07  
    */
   YU: 'YU',
 
   /**
    * Zaire  
-   * Reserved from 1997-07 to 2047-07  
-   * Name changed to CD
+   * @Reserved from 1997-07 to 2047-07  
+   * @To Name changed to CD
    */
   ZR: 'ZR',
 } as const;

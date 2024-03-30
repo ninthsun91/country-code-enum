@@ -1,5 +1,8 @@
 /**
- * ISO 4217 active currency codes
+ * @standard ISO 4217
+ * 
+ * @description 157 active currency codes
+ * 
  * @link https://en.wikipedia.org/wiki/ISO_4217
  */
 export const Currency = {
