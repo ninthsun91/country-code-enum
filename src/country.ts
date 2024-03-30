@@ -7,311 +7,849 @@ export const Country = {
   // Officially assigned code elements
   // total: 249
   //
-  AD: 'AD',  // Andorra
-  AE: 'AE',  // United Arab Emirates
-  AF: 'AF',  // Afghanistan
-  AG: 'AG',  // Antigua and Barbuda
-  AI: 'AI',  // Anguilla
-  AL: 'AL',  // Albania
-  AM: 'AM',  // Armenia
-  AO: 'AO',  // Angola
-  AQ: 'AQ',  // Antarctica
-  AR: 'AR',  // Argentina
-  AS: 'AS',  // American Samoa
-  AT: 'AT',  // Austria
-  AU: 'AU',  // Australia
-  AW: 'AW',  // Aruba
-  AX: 'AX',  // Åland Islands
-  AZ: 'AZ',  // Azerbaijan
-  BA: 'BA',  // Bosnia and Herzegovina
-  BB: 'BB',  // Barbados
-  BD: 'BD',  // Bangladesh
-  BE: 'BE',  // Belgium
-  BF: 'BF',  // Burkina Faso
-  BG: 'BG',  // Bulgaria
-  BH: 'BH',  // Bahrain
-  BI: 'BI',  // Burundi
-  BJ: 'BJ',  // Benin
-  BL: 'BL',  // Saint Barthélemy
-  BM: 'BM',  // Bermuda
-  BN: 'BN',  // Brunei Darussalam
-  BO: 'BO',  // Bolivia (Plurinational State of)
-  BQ: 'BQ',  // Bonaire, Sint Eustatius and Saba
-  BR: 'BR',  // Brazil
-  BS: 'BS',  // Bahamas
-  BT: 'BT',  // Bhutan
-  BV: 'BV',  // Bouvet Island
-  BW: 'BW',  // Botswana
-  BY: 'BY',  // Belarus
-  BZ: 'BZ',  // Belize
-  CA: 'CA',  // Canada
-  CC: 'CC',  // Cocos (Keeling) Islands
-  CD: 'CD',  // Congo, Democratic Republic of the
-  CF: 'CF',  // Central African Republic
-  CG: 'CG',  // Congo
-  CH: 'CH',  // Switzerland
-  CI: 'CI',  // Côte d'Ivoire
-  CK: 'CK',  // Cook Islands
-  CL: 'CL',  // Chile
-  CM: 'CM',  // Cameroon
-  CN: 'CN',  // China
-  CO: 'CO',  // Colombia
-  CR: 'CR',  // Costa Rica
-  CU: 'CU',  // Cuba
-  CV: 'CV',  // Cabo Verde
-  CW: 'CW',  // Curaçao
-  CX: 'CX',  // Christmas Island
-  CY: 'CY',  // Cyprus
-  CZ: 'CZ',  // Czechia
-  DE: 'DE',  // Germany
-  DJ: 'DJ',  // Djibouti
-  DK: 'DK',  // Denmark
-  DM: 'DM',  // Dominica
-  DO: 'DO',  // Dominican Republic
-  DZ: 'DZ',  // Algeria
-  EC: 'EC',  // Ecuador
-  EE: 'EE',  // Estonia
-  EG: 'EG',  // Egypt
-  EH: 'EH',  // Western Sahara
-  ER: 'ER',  // Eritrea
-  ES: 'ES',  // Spain
-  ET: 'ET',  // Ethiopia
-  FI: 'FI',  // Finland
-  FJ: 'FJ',  // Fiji
-  FK: 'FK',  // Falkland Islands (Malvinas)
-  FM: 'FM',  // Micronesia (Federated States of)
-  FO: 'FO',  // Faroe Islands
-  FR: 'FR',  // France
-  GA: 'GA',  // Gabon
-  GB: 'GB',  // United Kingdom of Great Britain and Northern Ireland
-  GD: 'GD',  // Grenada
-  GE: 'GE',  // Georgia
-  GF: 'GF',  // French Guiana
-  GG: 'GG',  // Guernsey
-  GH: 'GH',  // Ghana
-  GI: 'GI',  // Gibraltar
-  GL: 'GL',  // Greenland
-  GM: 'GM',  // Gambia
-  GN: 'GN',  // Guinea
-  GP: 'GP',  // Guadeloupe
-  GQ: 'GQ',  // Equatorial Guinea
-  GR: 'GR',  // Greece
-  GS: 'GS',  // South Georgia and the South Sandwich Islands
-  GT: 'GT',  // Guatemala
-  GU: 'GU',  // Guam
-  GW: 'GW',  // Guinea-Bissau
-  GY: 'GY',  // Guyana
-  HK: 'HK',  // Hong Kong
-  HM: 'HM',  // Heard Island and McDonald Islands
-  HN: 'HN',  // Honduras
-  HR: 'HR',  // Croatia
-  HT: 'HT',  // Haiti
-  HU: 'HU',  // Hungary
-  ID: 'ID',  // Indonesia
-  IE: 'IE',  // Ireland
-  IL: 'IL',  // Israel
-  IM: 'IM',  // Isle of Man
-  IN: 'IN',  // India
-  IO: 'IO',  // British Indian Ocean Territory
-  IQ: 'IQ',  // Iraq
-  IR: 'IR',  // Iran (Islamic Republic of)
-  IS: 'IS',  // Iceland
-  IT: 'IT',  // Italy
-  JE: 'JE',  // Jersey
-  JM: 'JM',  // Jamaica
-  JO: 'JO',  // Jordan
-  JP: 'JP',  // Japan
-  KE: 'KE',  // Kenya
-  KG: 'KG',  // Kyrgyzstan
-  KH: 'KH',  // Cambodia
-  KI: 'KI',  // Kiribati
-  KM: 'KM',  // Comoros
-  KN: 'KN',  // Saint Kitts and Nevis
-  KP: 'KP',  // Korea (Democratic People's Republic of)
-  KR: 'KR',  // Korea, Republic of
-  KW: 'KW',  // Kuwait
-  KY: 'KY',  // Cayman Islands
-  KZ: 'KZ',  // Kazakhstan
-  LA: 'LA',  // Lao People's Democratic Republic
-  LB: 'LB',  // Lebanon
-  LC: 'LC',  // Saint Lucia
-  LI: 'LI',  // Liechtenstein
-  LK: 'LK',  // Sri Lanka
-  LR: 'LR',  // Liberia
-  LS: 'LS',  // Lesotho
-  LT: 'LT',  // Lithuania
-  LU: 'LU',  // Luxembourg
-  LV: 'LV',  // Latvia
-  LY: 'LY',  // Libya
-  MA: 'MA',  // Morocco
-  MC: 'MC',  // Monaco
-  MD: 'MD',  // Moldova, Republic of
-  ME: 'ME',  // Montenegro
-  MF: 'MF',  // Saint Martin (French part)
-  MG: 'MG',  // Madagascar
-  MH: 'MH',  // Marshall Islands
-  MK: 'MK',  // North Macedonia
-  ML: 'ML',  // Mali
-  MM: 'MM',  // Myanmar
-  MN: 'MN',  // Mongolia
-  MO: 'MO',  // Macao
-  MP: 'MP',  // Northern Mariana Islands
-  MQ: 'MQ',  // Martinique
-  MR: 'MR',  // Mauritania
-  MS: 'MS',  // Montserrat
-  MT: 'MT',  // Malta
-  MU: 'MU',  // Mauritius
-  MV: 'MV',  // Maldives
-  MW: 'MW',  // Malawi
-  MX: 'MX',  // Mexico
-  MY: 'MY',  // Malaysia
-  MZ: 'MZ',  // Mozambique
-  NA: 'NA',  // Namibia
-  NC: 'NC',  // New Caledonia
-  NE: 'NE',  // Niger
-  NF: 'NF',  // Norfolk Island
-  NG: 'NG',  // Nigeria
-  NI: 'NI',  // Nicaragua
-  NL: 'NL',  // Netherlands
-  NO: 'NO',  // Norway
-  NP: 'NP',  // Nepal
-  NR: 'NR',  // Nauru
-  NU: 'NU',  // Niue
-  NZ: 'NZ',  // New Zealand
-  OM: 'OM',  // Oman
-  PA: 'PA',  // Panama
-  PE: 'PE',  // Peru
-  PF: 'PF',  // French Polynesia
-  PG: 'PG',  // Papua New Guinea
-  PH: 'PH',  // Philippines
-  PK: 'PK',  // Pakistan
-  PL: 'PL',  // Poland
-  PM: 'PM',  // Saint Pierre and Miquelon
-  PN: 'PN',  // Pitcairn
-  PR: 'PR',  // Puerto Rico
-  PS: 'PS',  // Palestine, State of
-  PT: 'PT',  // Portugal
-  PW: 'PW',  // Palau
-  PY: 'PY',  // Paraguay
-  QA: 'QA',  // Qatar
-  RE: 'RE',  // Réunion
-  RO: 'RO',  // Romania
-  RS: 'RS',  // Serbia
-  RU: 'RU',  // Russian Federation
-  RW: 'RW',  // Rwanda
-  SA: 'SA',  // Saudi Arabia
-  SB: 'SB',  // Solomon Islands
-  SC: 'SC',  // Seychelles
-  SD: 'SD',  // Sudan
-  SE: 'SE',  // Sweden
-  SG: 'SG',  // Singapore
-  SH: 'SH',  // Saint Helena, Ascension and Tristan da Cunha
-  SI: 'SI',  // Slovenia
-  SJ: 'SJ',  // Svalbard and Jan Mayen
-  SK: 'SK',  // Slovakia
-  SL: 'SL',  // Sierra Leone
-  SM: 'SM',  // San Marino
-  SN: 'SN',  // Senegal
-  SO: 'SO',  // Somalia
-  SR: 'SR',  // Suriname
-  SS: 'SS',  // South Sudan
-  ST: 'ST',  // Sao Tome and Principe
-  SV: 'SV',  // El Salvador
-  SX: 'SX',  // Sint Maarten (Dutch part)
-  SY: 'SY',  // Syrian Arab Republic
-  SZ: 'SZ',  // Eswatini
-  TC: 'TC',  // Turks and Caicos Islands
-  TD: 'TD',  // Chad
-  TF: 'TF',  // French Southern Territories
-  TG: 'TG',  // Togo
-  TH: 'TH',  // Thailand
-  TJ: 'TJ',  // Tajikistan
-  TK: 'TK',  // Tokelau
-  TL: 'TL',  // Timor-Leste
-  TM: 'TM',  // Turkmenistan
-  TN: 'TN',  // Tunisia
-  TO: 'TO',  // Tonga
-  TR: 'TR',  // Turkey
-  TT: 'TT',  // Trinidad and Tobago
-  TV: 'TV',  // Tuvalu
-  TW: 'TW',  // Taiwan, Province of China
-  TZ: 'TZ',  // Tanzania, United Republic of
-  UA: 'UA',  // Ukraine
-  UG: 'UG',  // Uganda
-  UM: 'UM',  // United States Minor Outlying Islands
-  US: 'US',  // United States of America
-  UY: 'UY',  // Uruguay
-  UZ: 'UZ',  // Uzbekistan
-  VA: 'VA',  // Holy See
-  VC: 'VC',  // Saint Vincent and the Grenadines
-  VE: 'VE',  // Venezuela (Bolivarian Republic of)
-  VG: 'VG',  // Virgin Islands (British)
-  VI: 'VI',  // Virgin Islands (U.S.)
-  VN: 'VN',  // Viet Nam
-  VU: 'VU',  // Vanuatu
-  WF: 'WF',  // Wallis and Futuna
-  WS: 'WS',  // Samoa
-  YE: 'YE',  // Yemen
-  YT: 'YT',  // Mayotte
-  ZA: 'ZA',  // South Africa
-  ZM: 'ZM',  // Zambia
-  ZW: 'ZW',  // Zimbabwe
+
+  /** Andorra */
+  AD: 'AD',
+
+  /** United Arab Emirates */
+  AE: 'AE',
+
+  /** Afghanistan */
+  AF: 'AF',
+
+  /** Antigua and Barbuda */
+  AG: 'AG',
+
+  /** Anguilla */
+  AI: 'AI',
+
+  /** Albania */
+  AL: 'AL',
+
+  /** Armenia */
+  AM: 'AM',
+
+  /** Angola */
+  AO: 'AO',
+
+  /** Antarctica */
+  AQ: 'AQ',
+
+  /** Argentina */
+  AR: 'AR',
+
+  /** American Samoa */
+  AS: 'AS',
+
+  /** Austria */
+  AT: 'AT',
+
+  /** Australia */
+  AU: 'AU',
+
+  /** Aruba */
+  AW: 'AW',
+
+  /** Åland Islands */
+  AX: 'AX',
+
+  /** Azerbaijan */
+  AZ: 'AZ',
+
+  /** Bosnia and Herzegovina */
+  BA: 'BA',
+
+  /** Barbados */
+  BB: 'BB',
+
+  /** Bangladesh */
+  BD: 'BD',
+
+  /** Belgium */
+  BE: 'BE',
+
+  /** Burkina Faso */
+  BF: 'BF',
+
+  /** Bulgaria */
+  BG: 'BG',
+
+  /** Bahrain */
+  BH: 'BH',
+
+  /** Burundi */
+  BI: 'BI',
+
+  /** Benin */
+  BJ: 'BJ',
+
+  /** Saint Barthélemy */
+  BL: 'BL',
+
+  /** Bermuda */
+  BM: 'BM',
+
+  /** Brunei Darussalam */
+  BN: 'BN',
+
+  /** Bolivia (Plurinational State of) */
+  BO: 'BO',
+
+  /** Bonaire, Sint Eustatius and Saba */
+  BQ: 'BQ',
+
+  /** Brazil */
+  BR: 'BR',
+
+  /** Bahamas */
+  BS: 'BS',
+
+  /** Bhutan */
+  BT: 'BT',
+
+  /** Bouvet Island */
+  BV: 'BV',
+
+  /** Botswana */
+  BW: 'BW',
+
+  /** Belarus */
+  BY: 'BY',
+
+  /** Belize */
+  BZ: 'BZ',
+
+  /** Canada */
+  CA: 'CA',
+
+  /** Cocos (Keeling) Islands */
+  CC: 'CC',
+
+  /** Congo, Democratic Republic of the */
+  CD: 'CD',
+
+  /** Central African Republic */
+  CF: 'CF',
+
+  /** Congo */
+  CG: 'CG',
+
+  /** Switzerland */
+  CH: 'CH',
+
+  /** Côte d'Ivoire */
+  CI: 'CI',
+
+  /** Cook Islands */
+  CK: 'CK',
+
+  /** Chile */
+  CL: 'CL',
+
+  /** Cameroon */
+  CM: 'CM',
+
+  /** China */
+  CN: 'CN',
+
+  /** Colombia */
+  CO: 'CO',
+
+  /** Costa Rica */
+  CR: 'CR',
+
+  /** Cuba */
+  CU: 'CU',
+
+  /** Cabo Verde */
+  CV: 'CV',
+
+  /** Curaçao */
+  CW: 'CW',
+
+  /** Christmas Island */
+  CX: 'CX',
+
+  /** Cyprus */
+  CY: 'CY',
+
+  /** Czechia */
+  CZ: 'CZ',
+
+  /** Germany */
+  DE: 'DE',
+
+  /** Djibouti */
+  DJ: 'DJ',
+
+  /** Denmark */
+  DK: 'DK',
+
+  /** Dominica */
+  DM: 'DM',
+
+  /** Dominican Republic */
+  DO: 'DO',
+
+  /** Algeria */
+  DZ: 'DZ',
+
+  /** Ecuador */
+  EC: 'EC',
+
+  /** Estonia */
+  EE: 'EE',
+
+  /** Egypt */
+  EG: 'EG',
+
+  /** Western Sahara */
+  EH: 'EH',
+
+  /** Eritrea */
+  ER: 'ER',
+
+  /** Spain */
+  ES: 'ES',
+
+  /** Ethiopia */
+  ET: 'ET',
+
+  /** Finland */
+  FI: 'FI',
+
+  /** Fiji */
+  FJ: 'FJ',
+
+  /** Falkland Islands (Malvinas) */
+  FK: 'FK',
+
+  /** Micronesia (Federated States of) */
+  FM: 'FM',
+
+  /** Faroe Islands */
+  FO: 'FO',
+
+  /** France */
+  FR: 'FR',
+
+  /** Gabon */
+  GA: 'GA',
+
+  /** United Kingdom of Great Britain and Northern Ireland */
+  GB: 'GB',
+
+  /** Grenada */
+  GD: 'GD',
+
+  /** Georgia */
+  GE: 'GE',
+
+  /** French Guiana */
+  GF: 'GF',
+
+  /** Guernsey */
+  GG: 'GG',
+
+  /** Ghana */
+  GH: 'GH',
+
+  /** Gibraltar */
+  GI: 'GI',
+
+  /** Greenland */
+  GL: 'GL',
+
+  /** Gambia */
+  GM: 'GM',
+
+  /** Guinea */
+  GN: 'GN',
+
+  /** Guadeloupe */
+  GP: 'GP',
+
+  /** Equatorial Guinea */
+  GQ: 'GQ',
+
+  /** Greece */
+  GR: 'GR',
+
+  /** South Georgia and the South Sandwich Islands */
+  GS: 'GS',
+
+  /** Guatemala */
+  GT: 'GT',
+
+  /** Guam */
+  GU: 'GU',
+
+  /** Guinea-Bissau */
+  GW: 'GW',
+
+  /** Guyana */
+  GY: 'GY',
+
+  /** Hong Kong */
+  HK: 'HK',
+
+  /** Heard Island and McDonald Islands */
+  HM: 'HM',
+
+  /** Honduras */
+  HN: 'HN',
+
+  /** Croatia */
+  HR: 'HR',
+
+  /** Haiti */
+  HT: 'HT',
+
+  /** Hungary */
+  HU: 'HU',
+
+  /** Indonesia */
+  ID: 'ID',
+
+  /** Ireland */
+  IE: 'IE',
+
+  /** Israel */
+  IL: 'IL',
+
+  /** Isle of Man */
+  IM: 'IM',
+
+  /** India */
+  IN: 'IN',
+
+  /** British Indian Ocean Territory */
+  IO: 'IO',
+
+  /** Iraq */
+  IQ: 'IQ',
+
+  /** Iran (Islamic Republic of) */
+  IR: 'IR',
+
+  /** Iceland */
+  IS: 'IS',
+
+  /** Italy */
+  IT: 'IT',
+
+  /** Jersey */
+  JE: 'JE',
+
+  /** Jamaica */
+  JM: 'JM',
+
+  /** Jordan */
+  JO: 'JO',
+
+  /** Japan */
+  JP: 'JP',
+
+  /** Kenya */
+  KE: 'KE',
+
+  /** Kyrgyzstan */
+  KG: 'KG',
+
+  /** Cambodia */
+  KH: 'KH',
+
+  /** Kiribati */
+  KI: 'KI',
+
+  /** Comoros */
+  KM: 'KM',
+
+  /** Saint Kitts and Nevis */
+  KN: 'KN',
+
+  /** Korea (Democratic People's Republic of) */
+  KP: 'KP',
+
+  /** Korea, Republic of */
+  KR: 'KR',
+
+  /** Kuwait */
+  KW: 'KW',
+
+  /** Cayman Islands */
+  KY: 'KY',
+
+  /** Kazakhstan */
+  KZ: 'KZ',
+
+  /** Lao People's Democratic Republic */
+  LA: 'LA',
+
+  /** Lebanon */
+  LB: 'LB',
+
+  /** Saint Lucia */
+  LC: 'LC',
+
+  /** Liechtenstein */
+  LI: 'LI',
+
+  /** Sri Lanka */
+  LK: 'LK',
+
+  /** Liberia */
+  LR: 'LR',
+
+  /** Lesotho */
+  LS: 'LS',
+
+  /** Lithuania */
+  LT: 'LT',
+
+  /** Luxembourg */
+  LU: 'LU',
+
+  /** Latvia */
+  LV: 'LV',
+
+  /** Libya */
+  LY: 'LY',
+
+  /** Morocco */
+  MA: 'MA',
+
+  /** Monaco */
+  MC: 'MC',
+
+  /** Moldova, Republic of */
+  MD: 'MD',
+
+  /** Montenegro */
+  ME: 'ME',
+
+  /** Saint Martin (French part) */
+  MF: 'MF',
+
+  /** Madagascar */
+  MG: 'MG',
+
+  /** Marshall Islands */
+  MH: 'MH',
+
+  /** North Macedonia */
+  MK: 'MK',
+
+  /** Mali */
+  ML: 'ML',
+
+  /** Myanmar */
+  MM: 'MM',
+
+  /** Mongolia */
+  MN: 'MN',
+
+  /** Macao */
+  MO: 'MO',
+
+  /** Northern Mariana Islands */
+  MP: 'MP',
+
+  /** Martinique */
+  MQ: 'MQ',
+
+  /** Mauritania */
+  MR: 'MR',
+
+  /** Montserrat */
+  MS: 'MS',
+
+  /** Malta */
+  MT: 'MT',
+
+  /** Mauritius */
+  MU: 'MU',
+
+  /** Maldives */
+  MV: 'MV',
+
+  /** Malawi */
+  MW: 'MW',
+
+  /** Mexico */
+  MX: 'MX',
+
+  /** Malaysia */
+  MY: 'MY',
+
+  /** Mozambique */
+  MZ: 'MZ',
+
+  /** Namibia */
+  NA: 'NA',
+
+  /** New Caledonia */
+  NC: 'NC',
+
+  /** Niger */
+  NE: 'NE',
+
+  /** Norfolk Island */
+  NF: 'NF',
+
+  /** Nigeria */
+  NG: 'NG',
+
+  /** Nicaragua */
+  NI: 'NI',
+
+  /** Netherlands */
+  NL: 'NL',
+
+  /** Norway */
+  NO: 'NO',
+
+  /** Nepal */
+  NP: 'NP',
+
+  /** Nauru */
+  NR: 'NR',
+
+  /** Niue */
+  NU: 'NU',
+
+  /** New Zealand */
+  NZ: 'NZ',
+
+  /** Oman */
+  OM: 'OM',
+
+  /** Panama */
+  PA: 'PA',
+
+  /** Peru */
+  PE: 'PE',
+
+  /** French Polynesia */
+  PF: 'PF',
+
+  /** Papua New Guinea */
+  PG: 'PG',
+
+  /** Philippines */
+  PH: 'PH',
+
+  /** Pakistan */
+  PK: 'PK',
+
+  /** Poland */
+  PL: 'PL',
+
+  /** Saint Pierre and Miquelon */
+  PM: 'PM',
+
+  /** Pitcairn */
+  PN: 'PN',
+
+  /** Puerto Rico */
+  PR: 'PR',
+
+  /** Palestine, State of */
+  PS: 'PS',
+
+  /** Portugal */
+  PT: 'PT',
+
+  /** Palau */
+  PW: 'PW',
+
+  /** Paraguay */
+  PY: 'PY',
+
+  /** Qatar */
+  QA: 'QA',
+
+  /** Réunion */
+  RE: 'RE',
+
+  /** Romania */
+  RO: 'RO',
+
+  /** Serbia */
+  RS: 'RS',
+
+  /** Russian Federation */
+  RU: 'RU',
+
+  /** Rwanda */
+  RW: 'RW',
+
+  /** Saudi Arabia */
+  SA: 'SA',
+
+  /** Solomon Islands */
+  SB: 'SB',
+
+  /** Seychelles */
+  SC: 'SC',
+
+  /** Sudan */
+  SD: 'SD',
+
+  /** Sweden */
+  SE: 'SE',
+
+  /** Singapore */
+  SG: 'SG',
+
+  /** Saint Helena, Ascension and Tristan da Cunha */
+  SH: 'SH',
+
+  /** Slovenia */
+  SI: 'SI',
+
+  /** Svalbard and Jan Mayen */
+  SJ: 'SJ',
+
+  /** Slovakia */
+  SK: 'SK',
+
+  /** Sierra Leone */
+  SL: 'SL',
+
+  /** San Marino */
+  SM: 'SM',
+
+  /** Senegal */
+  SN: 'SN',
+
+  /** Somalia */
+  SO: 'SO',
+
+  /** Suriname */
+  SR: 'SR',
+
+  /** South Sudan */
+  SS: 'SS',
+
+  /** Sao Tome and Principe */
+  ST: 'ST',
+
+  /** El Salvador */
+  SV: 'SV',
+
+  /** Sint Maarten (Dutch part) */
+  SX: 'SX',
+
+  /** Syrian Arab Republic */
+  SY: 'SY',
+
+  /** Eswatini */
+  SZ: 'SZ',
+
+  /** Turks and Caicos Islands */
+  TC: 'TC',
+
+  /** Chad */
+  TD: 'TD',
+
+  /** French Southern Territories */
+  TF: 'TF',
+
+  /** Togo */
+  TG: 'TG',
+
+  /** Thailand */
+  TH: 'TH',
+
+  /** Tajikistan */
+  TJ: 'TJ',
+
+  /** Tokelau */
+  TK: 'TK',
+
+  /** Timor-Leste */
+  TL: 'TL',
+
+  /** Turkmenistan */
+  TM: 'TM',
+
+  /** Tunisia */
+  TN: 'TN',
+
+  /** Tonga */
+  TO: 'TO',
+
+  /** Turkey */
+  TR: 'TR',
+
+  /** Trinidad and Tobago */
+  TT: 'TT',
+
+  /** Tuvalu */
+  TV: 'TV',
+
+  /** Taiwan, Province of China */
+  TW: 'TW',
+
+  /** Tanzania, United Republic of */
+  TZ: 'TZ',
+
+  /** Ukraine */
+  UA: 'UA',
+
+  /** Uganda */
+  UG: 'UG',
+
+  /** United States Minor Outlying Islands */
+  UM: 'UM',
+
+  /** United States of America */
+  US: 'US',
+
+  /** Uruguay */
+  UY: 'UY',
+
+  /** Uzbekistan */
+  UZ: 'UZ',
+
+  /** Holy See */
+  VA: 'VA',
+
+  /** Saint Vincent and the Grenadines */
+  VC: 'VC',
+
+  /** Venezuela (Bolivarian Republic of) */
+  VE: 'VE',
+
+  /** Virgin Islands (British) */
+  VG: 'VG',
+
+  /** Virgin Islands (U.S.) */
+  VI: 'VI',
+
+  /** Viet Nam */
+  VN: 'VN',
+
+  /** Vanuatu */
+  VU: 'VU',
+
+  /** Wallis and Futuna */
+  WF: 'WF',
+
+  /** Samoa */
+  WS: 'WS',
+
+  /** Yemen */
+  YE: 'YE',
+
+  /** Mayotte */
+  YT: 'YT',
+
+  /** South Africa */
+  ZA: 'ZA',
+
+  /** Zambia */
+  ZM: 'ZM',
+
+  /** Zimbabwe */
+  ZW: 'ZW',
 
   //
   // Exceptional reservations
   // total: 13
   //
-  AC: 'AC',  // Ascension Island
-  CP: 'CP',  // Clipperton Island
-  CQ: 'CQ',  // Island of Sark
-  DG: 'DG',  // Diego Garcia
-  EA: 'EA',  // Ceuta, Melilla
-  EU: 'EU',  // European Union
-  EZ: 'EZ',  // Eurozone
-  FX: 'FX',  // France, Metropolitan
-  IC: 'IC',  // Canary Islands
-  SU: 'SU',  // USSR
-  TA: 'TA',  // Tristan da Cunha
-  UK: 'UK',  // United Kingdom
-  UN: 'UN',  // United Nations
+  /** Ascension Island */
+  AC: 'AC',
+
+  /** Clipperton Island */
+  CP: 'CP',
+
+  /** Island of Sark */
+  CQ: 'CQ',
+
+  /** Diego Garcia */
+  DG: 'DG',
+
+  /** Ceuta, Melilla */
+  EA: 'EA',
+
+  /** European Union */
+  EU: 'EU',
+
+  /** Eurozone */
+  EZ: 'EZ',
+
+  /** France, Metropolitan */
+  FX: 'FX',
+
+  /** Canary Islands */
+  IC: 'IC',
+
+  /** USSR */
+  SU: 'SU',
+
+  /** Tristan da Cunha */
+  TA: 'TA',
+
+  /** United Kingdom */
+  UK: 'UK',
+
+  /** United Nations */
+  UN: 'UN',
+
 
   //
   // Transitional reservations
   // total: 7
   //
+
   /**
+   * Netherlands Antilles  
    * Reserved from 2010-12 to 2060-12  
    * Divided to BQ and SX
    */
-  AN: 'AN',  // Netherlands Antilles
+  AN: 'AN',
+
   /**
+   * Burma  
    * Reserved from 1989-12 to 2039-12  
    * Name changed to MM
    */
-  BU: 'BU',  // Burma
+  BU: 'BU',
+
   /**
+   * Serbia and Montenegro  
    * Reserved from 2006-09 to 2056-09  
    * Divided to ME and RS
    */
-  CS: 'CS',  // Serbia and Montenegro
+  CS: 'CS',
+
   /**
+   * Neutral Zone  
    * Reserved from 1993-07 to 2043-07  
    * Divided between IQ and SA
    */
-  NT: 'NT',  // Neutral Zone
+  NT: 'NT',
+
   /**
-   * Reserved from 2002-05 to 2052-05
+   * East Timor  
+   * Reserved from 2002-05 to 2052-05  
    * Name changed to TL
    */
-  TP: 'TP',  // East Timor
+  TP: 'TP',
+
   /**
-   * Reserved from 2003-07 to 2053-07
+   * Yugoslavia  
+   * Reserved from 2003-07 to 2053-07  
    */
-  YU: 'YU',  // Yugoslavia
+  YU: 'YU',
+
   /**
-   * Reserved from 1997-07 to 2047-07
+   * Zaire  
+   * Reserved from 1997-07 to 2047-07  
    * Name changed to CD
    */
-  ZR: 'ZR',  // Zaire
+  ZR: 'ZR',
 } as const;
 export type Country = typeof Country[keyof typeof Country];

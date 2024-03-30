@@ -1,6 +1,6 @@
 {
   "name": "country-code-enum",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Country and currency code in const Enum",
   "main": "dist/index.js",
   "scripts": {
