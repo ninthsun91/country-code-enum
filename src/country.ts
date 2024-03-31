@@ -1,7 +1,7 @@
 /**
  * @standard ISO 3166-1 alpha-2
  * 
- * @description 249 officially assigned country codes, 16 exceptional reservations, and 7 transitional reservations
+ * @description 249 officially assigned country codes, 13 exceptional reservations, and 7 transitional reservations
  * 
  * @link https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
  */
